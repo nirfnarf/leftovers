@@ -1,7 +1,22 @@
-TODO (GENERAL)
+Start server:
 
-* Clone this workspace within Hrefna's Cloud9 account, and let Youngeun use that 
-  cloned workspace within Hrefna's account
+    meteor --settings settings.json --port $IP:$PORT
+    
+Make sure a settings.json file exists:
+
+    {
+      "public" : {
+        "filepicker":{
+          "key":"<API KEY HERE>"
+        }
+      }
+    }
+
+Files to style:
+
+* ui/body.html: Overall layout
+* ui/leftover.html: Individual leftover
+* client/main.css: CSS
 
 TODO (HREFNA)
 
